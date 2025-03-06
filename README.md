@@ -1,2 +1,7 @@
 # ISD-Kei
-A personal repo i'll use to place all my Data Structure assignments, whose NIM 60706240065 and D3IF-48-02
+Keyla Namira Johan's
+
+
+A personal repo i'll use to place all my Data Structure assignments, 
+whose NIM is 60706240065 and 
+class is D3IF-48-02
