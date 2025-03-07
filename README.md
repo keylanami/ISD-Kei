@@ -1,7 +1,7 @@
 # ISD-Kei
-🪸 - Keyla Namira Johan's Module and Journal Archive
+🪸 - Keyla Namira Johan's Data Strcuture Module and Journal Archive
 
-🥠 - A personal repo i'll use to place all my Data Structure assignments,
+🥠 - A personal repo
 
 🫧 - whose NIM is 60706240065 and
 
