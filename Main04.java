@@ -3,6 +3,7 @@ import java.util.ListIterator;
 
 public class Main04 {
     
+    //ORIGINALLY CODED BY KEYLA NAMIRA JOHAN 607062400065 D3IF-48-02
     public static void main(String[] args) {
         LinkedList<PojoBuku> rental = new LinkedList<>();
         ListIterator<PojoBuku> iterator = rental.listIterator();

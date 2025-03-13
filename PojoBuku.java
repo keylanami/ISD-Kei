@@ -1,5 +1,7 @@
 public class PojoBuku {
 
+    //ORIGINALLY CODED BY KEYLA NAMIRA JOHAN 607062400065 D3IF-48-02
+    
     private String isbn;
     private String judul;
     private String kategori;
