@@ -81,7 +81,7 @@ public class JurnalHashSet {
         JurnalNode iterator = allPlayers;
 
             while (iterator != null) {
-                System.out.println(iterator.data);
+                System.out.println("- " + iterator.data);
                 iterator = iterator.next;
             }
 
@@ -108,9 +108,9 @@ public class JurnalHashSet {
             }
         }
         
-        System.out.println();
+    
 
-    System.out.println("Sub-players: ");
+    System.out.println("\nSub-players: ");
     count = 0;
 
          for(int i = 0; i < buckets.length; i++){

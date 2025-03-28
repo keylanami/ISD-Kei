@@ -4,20 +4,21 @@ public class JurnalMainHash {
         JurnalHashSet players = new JurnalHashSet(5);
 
 
-        // ISI 5 PEMAIN UTAMA DLU
+        // NGISI 5 PEMAIN UTAMA DLU
         players.add("Himmel");
         players.add("Eren Yaeger");
         players.add("Kinich");
         players.add("Kaedehara Kazuha");
         players.add("Mark Lee");
 
-        // lebih dari 5 berarti cadangan
+        // lebih dari 5 berarti CADANGAN
         players.add("Zhanghao");
         players.add("Sunghoon");
 
+        
         players.printAll();
         System.out.println();
-        
+
         players.printStatus();
 
     }
