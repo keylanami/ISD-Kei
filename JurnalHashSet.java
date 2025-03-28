@@ -72,23 +72,64 @@ public class JurnalHashSet {
         return false;
        }
 
-    public void print(){
+
+    public void printAll(){
+    System.out.println("All players: ");
+
+    for (JurnalNode allPlayers : buckets) {
+        if (allPlayers != null) {
+        JurnalNode iterator = allPlayers;
+
+            while (iterator != null) {
+                System.out.println(iterator.data);
+                iterator = iterator.next;
+            }
+
+        }
+    }
+    }
+
+
+    public void printStatus(){
+    System.out.println("Main Players: ");
+    int count = 0;
+
 
         for(int i = 0; i < buckets.length; i++){
-            JurnalNode iterator = buckets[i];
-            
-            if (iterator != null) { 
-                System.out.printf("index %d : ", i);
+        JurnalNode iterator = buckets[i];
+        
 
-                while (iterator != null) {
-                    System.out.println(iterator.data + " ");
-                    iterator = iterator.next;
+            while (iterator != null) {
+                if (count < 5) {
+                    System.out.println("- " + iterator.data + " ");
                 }
-
-                System.out.println();
+                iterator = iterator.next;
+                count++;
             }
         }
+        
+        System.out.println();
+
+    System.out.println("Sub-players: ");
+    count = 0;
+
+         for(int i = 0; i < buckets.length; i++){
+        JurnalNode iterator = buckets[i];
+
+        while (iterator != null) {
+            if (count >= 5) {
+                System.out.println("- " + iterator.data + " ");
+            }
+
+            iterator = iterator.next;
+            count++;
+        }
+    }
     }
 
     
+
 }
+
+
+    

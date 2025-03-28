@@ -108,7 +108,7 @@ public class modulHashSet {
             if (iterator != null) { // kalo i gak kosng, print
                 System.out.printf("index %d : ", i);
 
-                while (iterator != null) { // as long ass iterator gak null, 
+                while (iterator != null) { // as long as iterator gak null, 
                     System.out.println(iterator.data + " "); // cetak data
                     iterator = iterator.next;
                 }
