@@ -9,6 +9,18 @@ public class JurnalPOJOMap {
         this.role = role;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
 
     @Override
     public int hashCode(){
@@ -44,10 +56,10 @@ public class JurnalPOJOMap {
         
     }
 
-
-    /*public boolean isDuplicate(JurnalPOJOMap other) {
+   /* public boolean isDuplicate(JurnalPOJOMap other) {
         return this.equals(other);
-    }*/
+    } */
+ 
 
 
     @Override

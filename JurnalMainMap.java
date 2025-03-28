@@ -44,6 +44,24 @@ public class JurnalMainMap {
 
         }
 
+        /*System.out.println("\nCheck duplikat:");
+        boolean foundDupe = false;
+
+        for(int i = 0; i < nct.size(); i++){
+            for(int j = i + 1; j < nct.size(); j++){
+                if (nct.get(i).isDuplicate(nct.get(j))) {
+                    System.out.println("Dupe found: \n" + nct.get(i));
+                    foundDupe = true;
+                }
+            }
+        }
+
+        if (!foundDupe) {
+            System.out.println("No dupe");
+        }
+        */
+
+
         System.out.println("Cari Member: masukkan key");
         int search = searchKey.nextInt();
 
@@ -54,15 +72,6 @@ public class JurnalMainMap {
         }
 
         
-        HashSet<JurnalPOJOMap> checkDupe = new HashSet<>();
-
-        for (Map.Entry<Integer, JurnalPOJOMap> entry1 : nct.entrySet()) {
-        if (checkDupe.contains(entry1.getValue())) {
-            System.out.println("Dupe found:\n" + entry1.getValue());
-        } else {
-            checkDupe.add(entry1.getValue());
-        }
-    }
 
     }
 }
