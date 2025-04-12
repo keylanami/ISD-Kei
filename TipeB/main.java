@@ -21,7 +21,7 @@ public class main {
         dokterSpesialis.ambilNomor(new dokter("B004", "Jeno", "dr.jaemin", "dokter THT"));
         dokterSpesialis.printAntrian();
 
-        System.out.println("DOKETER UMUM");
+        System.out.println("DOKTER UMUM");
         dokterUmum.ambilNomor(new dokter("A003", "Markie", "dr. katei", "dokter umum"));
         System.out.println();
 

@@ -16,7 +16,7 @@ private String jenisDokter;
     public void ambilNomor(E object){
         listAntrean.add(object);
 
-        System.out.println("Kamu pasien dari: " + jenisDokter);
+        System.out.println("Kamu pasien " + jenisDokter);
         if (listAntrean.size() > 1 && jenisDokter.equalsIgnoreCase("Dokter Umum")) {
             System.out.println("Kamu nunggu " + (listAntrean.size() - 1) + " orang lagi");
         }
@@ -26,7 +26,7 @@ private String jenisDokter;
     public void panggilanPeriksa(){
         if (!listAntrean.isEmpty()) {
             E pasien = listAntrean.poll();
-            System.out.println("saatnya " + pasien + " periksa");
+            System.out.println("Nomor " + ((dokter) pasien).getAntrean() + " dengan nama " + ((dokter) pasien).getPasien() + " untuk " + ((dokter) pasien).getNamaDokter() + ", pasien " + ((dokter) pasien).getJenisDokter() + " silakan ke ruang periksa");
         } else {
             System.out.println("langsung masuk aja, ga ngantri");
         }

@@ -29,6 +29,24 @@ public class dokter {
         this.pasien = pasien;
     }
 
+
+    public String getAntrean() {
+        return antrean;
+    }
+
+    public String getJenisDokter() {
+        return jenisDokter;
+    }
+
+    public String getNamaDokter() {
+        return namaDokter;
+    }
+
+    public String getPasien() {
+        return pasien;
+    }
+
+
     @Override
     public String toString(){
         return "antrean: " + antrean + "\nnama pasien: " + pasien + "\nnama dokter: " + namaDokter + "\njenis dokter: " + jenisDokter;
