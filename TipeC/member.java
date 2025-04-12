@@ -59,6 +59,6 @@ public class member {
 
     @Override
     public String toString() {
-        return "No: " + noMember + ", Nama: " + nama + ", Alamat: " + alamat + ", Tipe: " + tipeMember + ", Lama: " + lamaJadiMember + " tahun";
+        return "No: " + noMember + "\nNama: " + nama + "\nAlamat: " + alamat + "\nTipe: " + tipeMember + "\nLama: " + lamaJadiMember + " tahun";
     }
 }
