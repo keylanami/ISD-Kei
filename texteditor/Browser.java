@@ -32,7 +32,7 @@ public class Browser {
         if (!mundurStack.empty()) {
             if (!historyStack.contains(current)) { //biar ga duplikat
                 historyStack.push(current);
-            }
+            }.
             System.out.println("Keluar dari halaman " + current);
 
         
