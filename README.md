@@ -1,8 +1,8 @@
 # ISD-Kei
-🪸 - Keyla Namira Johan's Data Strcuture Module and Journal Archive
+🪸 - Keyla Namira Johan's Data Strcuture Exercises, Modules, and Journal Archive
 
 🥠 - A personal repo
 
-🫧 - whose NIM is 60706240065 and
+🫧 - NIM 60706240065 and
 
-🫕 - class is D3IF-48-02
+🫕 - D3IF-48-02
