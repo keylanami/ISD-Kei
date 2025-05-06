@@ -20,7 +20,7 @@ public class main {
         System.out.println("BFS: ");
         graph.bfs('A');
         
-        System.out.println();
+        System.out.println("\n");
 
         System.out.println("DFS: ");
         graph.dfs('A');

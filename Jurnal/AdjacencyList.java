@@ -1,4 +1,4 @@
-package Jurnal;
+    package Jurnal;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
