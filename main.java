@@ -22,6 +22,8 @@ public class main {
         graf.addEdge("Properti panggung", "Kostum");
         graf.addEdge("Properti panggung", "Persiapan panggung");
 
-       System.out.println(graf.topologicalSort());
+
+        System.out.println("Urutan pengerjaan tugas persiapan drama:  ");
+        System.out.println(graf.topologicalSort());
     }
 }
