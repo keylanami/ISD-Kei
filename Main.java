@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Tree<Integer> pohon = new Tree<>();
@@ -7,8 +5,29 @@ public class Main {
 
         System.out.println("Inorder traversal");
         for (int i : val) {
-            System.out.printf("%d ", i);
-            
+            pohon.insertNode(i);
         }
+        pohon.inorderTrav();
+
+        System.out.println();
+        System.out.print("Nilai terkecil: " + pohon.findMin() + "\n");
+        
+        System.out.print("Nilai terbesar: " + pohon.findMax() + "\n" );
+        
+        System.out.println();
+        System.out.print("Tinggi pohon: " + pohon.height() + "\n");
+        
+        pohon.inorderTrav();
+        System.out.println();
+        
+        System.out.println();
+        System.out.println("Mencari data: ");
+        pohon.searchBST(80);
+        pohon.searchBST(100);
+        pohon.searchBST(120);
+        
+        
+    
+        
     }
 }

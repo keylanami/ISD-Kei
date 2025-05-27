@@ -15,11 +15,11 @@ public class TreeNode<E extends Comparable<E>> {
             } else {
                 leftNode.insert(insertValue);
             }
-        } else if (insertValue.compareTo(data) < 0) {
+        } else if (insertValue.compareTo(data) > 0) {
             if (rightNode == null) {
                 rightNode = new TreeNode<>(insertValue);
             } else {
-                rightNode = new TreeNode<>(insertValue);
+                rightNode.insert(insertValue);
             }
         }
     }
