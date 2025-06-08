@@ -1,3 +1,5 @@
+package irregularVerbs;
+
 public class dictionary {
     private Node root;
 

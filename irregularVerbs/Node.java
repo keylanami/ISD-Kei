@@ -1,3 +1,4 @@
+package irregularVerbs;
 public class Node {
     kosakata data;
     Node left, right;

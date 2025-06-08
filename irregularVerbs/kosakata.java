@@ -1,3 +1,5 @@
+package irregularVerbs;
+
 public class kosakata {
 
     private String verb;
