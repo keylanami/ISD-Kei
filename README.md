@@ -1,8 +1,8 @@
 # ISD-Kei
-🪸 - Keyla Namira Johan's Data Strcuture Module and Journal Archive
+🪸 - Keyla Namira Johan's Data structure Assessment 2
 
-🥠 - A personal repo
+🥠 - Soal Tipe H
 
-🫧 - whose NIM is 60706240065 and
+🫧 - whose NIM is 60706240065
 
-🫕 - class is D3IF-48-02
+🫕 -  D3IF-48-02
