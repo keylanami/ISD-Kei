@@ -1,4 +1,6 @@
- import java.util.List;
+// ASSESSMENT 2 ORIGINALLY CODED BY KEYLA NAMIRA JOHAN
+
+import java.util.List;
 import java.util.ArrayList;
 
 public class City {
